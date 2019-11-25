@@ -2,20 +2,13 @@
 -----------------
 */
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    height: 100vh;
-}
-
 .landing {
     height: inherit;
 }
 
 #cfp-button:hover {
-    cursor: pointer;
     background-color: rgba(255, 0, 0, 0.1);
+    text-decoration: none;
 }
 
 #org-team-button:hover {
@@ -32,8 +25,12 @@ html, body {
     border-radius: 50%;
 }
 
-@media (max-width:1000px) {
-  body {
-    font-size: 24px!important;
-  }
+.btn-circle {
+    border-radius: 50%;
+    border-width: 2px;
 }
+
+.text-blue {
+    color: #2d498a;
+}
+
