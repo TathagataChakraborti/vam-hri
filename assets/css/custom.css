@@ -39,3 +39,11 @@
     color: #2d498a;
 }
 
+.invited {
+    border-left: none;
+    border-right: none;
+}
+
+.invited .member {
+    padding-left: 0!important;
+}
